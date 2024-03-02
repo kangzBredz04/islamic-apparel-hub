@@ -12,6 +12,7 @@ app.use(
 app.use(express.json());
 
 app.use("/muslim-clothing", ClothingRoute); // Route data muslim clothing
+app.use("/", );
 
 // start
 app.get("/api", (_req, res) => {
